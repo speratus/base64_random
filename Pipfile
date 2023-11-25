@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+build = "*"
 
 [requires]
 python_version = "3.11"
