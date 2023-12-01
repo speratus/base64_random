@@ -1,4 +1,4 @@
-# base64_random
+# base64-random
 
 Generates a base 64 random number of an arbitrary length.
 
@@ -40,9 +40,9 @@ print(base64_number)
 `base64_random` is available on pip!
 
 ```shell
-pip install base64_random
+pip install base64-random
 ```
 
-You can also install `base64_random` directly from git, but please refer to the 
+You can also install `base64-random` directly from git, but please refer to the 
 [official documentation](https://pip.pypa.io/en/stable/getting-started/#install-a-package-from-github) for the details
 of how to do that.
