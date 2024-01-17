@@ -46,3 +46,22 @@ pip install base64-random
 You can also install `base64-random` directly from git, but please refer to the 
 [official documentation](https://pip.pypa.io/en/stable/getting-started/#install-a-package-from-github) for the details
 of how to do that.
+
+### Building from Source
+If you wihs to build `base64-random` directly from the source code, you can do that by following these steps:
+
+1. Clone the repo from GitHub.
+2. Install dependencies. I *highly* recommend that you use `pipenv` for this purpose. The only dependencies are those
+    required to build the library itself.
+    1. If you do use pipenv to install dependencies, make sure to activate the shell environment by running `pipenv shell`.
+3. Once dependencies are installed, simply run the python build module:
+```shell
+python -m build
+```
+4. If you have followed all the instructions correctly, then you should now have a `*.whl` file and a `*.tar.gz` file
+    in the `dist` directory.
+5. Once the wheel file is generated, you can install it by running `pipenv install dist/base64_random-<VERSION>.whl`.
+    if you prefer to install with `pip`, you can do so by running the very similar command:
+   `pip install dist/base64_random-<VERSION>.whl`.
+
+You're done! You should now be able to import the library.
