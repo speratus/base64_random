@@ -48,7 +48,7 @@ You can also install `base64-random` directly from git, but please refer to the
 of how to do that.
 
 ### Building from Source
-If you wihs to build `base64-random` directly from the source code, you can do that by following these steps:
+If you wish to build `base64-random` directly from the source code, you can do that by following these steps:
 
 1. Clone the repo from [GitHub](https://github.com/speratus/base64_random).
 2. Install dependencies. I *highly* recommend that you use [`pipenv`](https://pypi.org/project/pipenv/) for this purpose. 
